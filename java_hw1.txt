@@ -1,0 +1,40 @@
+package lesson;
+
+public class Main {
+    public static void main(String[] args) {
+
+        char ch = 'G';
+        System.out.println("Character: " + ch);
+
+        int myInt = 89;
+        System.out.println("Integer: " + myInt);
+
+        byte myByte = 4;
+        System.out.println("Byte: " + myByte);
+
+        short myShort = 56;
+        System.out.println("Short: " + myShort);
+
+        float myFloat = 4.7333436f;
+        System.out.println("Float: " + myFloat);
+
+        double myDouble = 4.355453532;
+        System.out.println("Double: " + myDouble);
+
+        long myLong = 12121;
+        System.out.println("Long: " + myLong);
+
+        System.out.println("_________________________________________");
+
+        int num = 345;
+        int firstNum = num / 100;
+        int secNum = num % 100 / 10;
+        int trNum = num % 10;
+
+        System.out.println("Число " + num + "->" + firstNum + "," + secNum + "," + trNum + ".");
+
+
+
+    }
+
+}
